@@ -25,11 +25,11 @@ Tom（医疗版）是一个基于 LangChain4j 和 SpringBoot 开发的医疗领�
 技术上，项目基于 LangChain4j 框架整合了多种大模型，实现了聊天记忆、函数调用、检索增强生成等高级功能。
 
 ## 环境准备
-JDK 17+
-Maven 3.6+
-MySQL 8.0+
-MongoDB（用于聊天记忆持久化）
-Node.js（用于前端运行）
+- JDK 17+
+- Maven 3.6+
+- MySQL 8.0+
+- MongoDB（用于聊天记忆持久化）
+- Node.js（用于前端运行）
 
 ## 项目构建
 
