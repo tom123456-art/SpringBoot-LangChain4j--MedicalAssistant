@@ -45,8 +45,7 @@ Tom（医疗版）是一个基于 LangChain4j 和 SpringBoot 开发的医疗领�
 
 ### 3.配置数据库
 
-修改application.properties中的 MySQL 和 MongoDB 连接信息
-执行sql/guiguxiaozhi.sql初始化数据库表结构
+修改application.properties中的MySQL和MongoDB连接信息,执行sql/guiguxiaozhi.sql初始化数据库表结构。
 
 ### 4.配置大模型 API
 
@@ -79,7 +78,7 @@ Tom（医疗版）是一个基于 LangChain4j 和 SpringBoot 开发的医疗领�
 - DeepSeek
 - 阿里通义千问 / 万象
 - Ollama 本地部署模型
-具体配置方法参见src/main/resources/application.properties中的注释说明。
+- 具体配置方法参见src/main/resources/application.properties中的注释说明。
 
 ### 2. 聊天记忆
 
@@ -94,4 +93,5 @@ Tom（医疗版）是一个基于 LangChain4j 和 SpringBoot 开发的医疗领�
 集成了 Pinecone 向量数据库，实现医疗知识库的高效检索，使模型能够基于专业医疗知识给出更准确的回答。
 
 ## 许可证
+
 本项目采用 Apache License 2.0 许可证，详情参见 LICENSE 文件。
