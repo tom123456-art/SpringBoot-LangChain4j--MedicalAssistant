@@ -2,8 +2,10 @@
 
 ## 项目简介
 
+- 图片一：
 ![](https://github.com/tom123456-art/SpringBoot-LangChain4j--MedicalAssistant/blob/main/project%20demonstration/1.png?raw=true)
 
+- 图片二：
 ![](https://github.com/tom123456-art/SpringBoot-LangChain4j--MedicalAssistant/blob/main/project%20demonstration/2.png?raw=true)
 
 Tom（医疗版）是一个基于 LangChain4j 和 SpringBoot 开发的医疗领域智能助手，能够实现医疗咨询、挂号预约等功能，并集成了多种大模型和检索增强生成（RAG）技术。
