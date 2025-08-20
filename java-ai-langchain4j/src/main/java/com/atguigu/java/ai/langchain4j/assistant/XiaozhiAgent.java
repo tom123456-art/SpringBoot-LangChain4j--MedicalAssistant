@@ -9,7 +9,7 @@ import static dev.langchain4j.service.spring.AiServiceWiringMode.EXPLICIT;
         chatModel = "qwenChatModel",
         chatMemoryProvider = "chatMemoryProviderXiaozhi",
         tools = "appointmentTools" ,//tools配置
-        contentRetriever = "contentRetrieverXiaozhi" // 配置向量存储
+        contentRetriever = "contentRetrieverXiaozhiPincone" // 配置向量存储
 )
 public interface XiaozhiAgent {
     @SystemMessage(fromResource = "xiaozhi-prompt-template.txt")
